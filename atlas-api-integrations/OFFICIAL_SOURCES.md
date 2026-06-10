@@ -1,0 +1,22 @@
+# Fontes oficiais e documentos de referência
+
+- **API-001 — Google Apps Script Web Apps**: https://developers.google.com/apps-script/guides/web | Função Atlas: endpoints públicos leves, quando aplicável.
+- **API-002 — Google Apps Script ContentService**: https://developers.google.com/apps-script/reference/content/content-service | Função Atlas: respostas públicas JSON/texto.
+- **API-003 — Google Sheets API**: https://developers.google.com/workspace/sheets/api/guides/concepts | Função Atlas: base operacional autorizada quando necessário.
+- **API-004 — Google Drive API**: https://developers.google.com/workspace/drive/api/guides/about-sdk | Função Atlas: gestão transitória de ficheiros e metadados.
+- **API-005 — Google Docs API**: https://developers.google.com/workspace/docs/api/how-tos/overview | Função Atlas: documentação editável auditável.
+- **API-006 — GitHub REST API — Repository contents**: https://docs.github.com/en/rest/repos/contents | Função Atlas: repositório de código, documentação e manifestos.
+- **API-007 — Zenodo REST API**: https://developers.zenodo.org/ | Função Atlas: depósito, preservação, DOI e versionamento quando autorizado.
+- **API-008 — DataCite REST API / Metadata Schema**: https://support.datacite.org/docs/api | Função Atlas: metadados DOI e investigação.
+- **API-009 — OpenAIRE Graph API**: https://graph.openaire.eu/develop/api.html | Função Atlas: interoperabilidade europeia de ciência aberta.
+- **API-010 — Copernicus Data Space Ecosystem APIs**: https://documentation.dataspace.copernicus.eu/APIs.html | Função Atlas: dados territoriais, ambientais e patrimoniais quando aplicável.
+- **API-011 — IIIF Image API 3.0**: https://iiif.io/api/image/3.0/ | Função Atlas: imagens culturais interoperáveis.
+- **API-012 — IIIF Presentation API 3.0**: https://iiif.io/api/presentation/3.0/ | Função Atlas: manifests digitais e colecções culturais.
+- **API-013 — W3C Web Annotation Data Model**: https://www.w3.org/TR/annotation-model/ | Função Atlas: anotações curatoriais interoperáveis.
+- **API-014 — JSON-LD 1.1 Processing Algorithms and API**: https://www.w3.org/TR/json-ld11-api/ | Função Atlas: metadados semânticos.
+- **API-015 — GeoJSON RFC 7946**: https://www.rfc-editor.org/rfc/rfc7946 | Função Atlas: mapa público e FeatureCollections.
+- **API-016 — OpenAPI Specification 3.1.1**: https://spec.openapis.org/oas/v3.1.1.html | Função Atlas: documentação formal de endpoints.
+- **API-017 — WCAG 2.2**: https://www.w3.org/TR/WCAG22/ | Função Atlas: acessibilidade web.
+- **API-018 — RGPD — Regulamento (UE) 2016/679**: https://eur-lex.europa.eu/eli/reg/2016/679/oj | Função Atlas: protecção de dados.
+- **API-019 — ISO 24495-1:2023 Plain Language**: https://www.iso.org/standard/78907.html | Função Atlas: linguagem clara.
+- **API-020 — Interoperable Europe Act — Regulamento (UE) 2024/903**: https://eur-lex.europa.eu/eli/reg/2024/903/oj | Função Atlas: interoperabilidade com sector público europeu.
