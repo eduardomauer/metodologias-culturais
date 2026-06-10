@@ -1,0 +1,136 @@
+openapi: 3.1.1
+info:
+  title: Atlas Vivo MILK — API pública mínima
+  version: 0.1.0
+  description: Especificação base para endpoints públicos do Atlas Vivo MILK. Não
+    inclui motores internos, dados pessoais, chaves, tokens ou lógica reservada.
+servers:
+- url: https://atlas.associacaomilk.pt
+  description: Domínio público alvo
+paths:
+  /api/health:
+    get:
+      summary: Estado público da Web App
+      responses:
+        '200':
+          description: Serviço ativo
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Health'
+  /api/points:
+    get:
+      summary: Pontos públicos aprovados para o mapa
+      parameters:
+      - name: tipo
+        in: query
+        required: false
+        schema:
+          type: string
+          enum:
+          - festa
+          - cronica
+          - expressao
+          - brincadeira
+          - memoria
+          - personagem
+      - name: freguesia
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: municipio
+        in: query
+        required: false
+        schema:
+          type: string
+      responses:
+        '200':
+          description: FeatureCollection GeoJSON pública
+          content:
+            application/geo+json:
+              schema:
+                $ref: '#/components/schemas/FeatureCollection'
+  /api/bootstrap:
+    get:
+      summary: Configuração pública inicial da interface
+      responses:
+        '200':
+          description: Configuração pública sem dados sensíveis
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Bootstrap'
+components:
+  schemas:
+    Health:
+      type: object
+      properties:
+        ok:
+          type: boolean
+        service:
+          type: string
+        version:
+          type: string
+        generated_at:
+          type: string
+          format: date-time
+      required:
+      - ok
+      - service
+      - version
+    Bootstrap:
+      type: object
+      properties:
+        project:
+          type: string
+        locale:
+          type: string
+        devices:
+          type: array
+          items:
+            type: string
+        privacy_notice:
+          type: string
+    FeatureCollection:
+      type: object
+      properties:
+        type:
+          const: FeatureCollection
+        features:
+          type: array
+          items:
+            $ref: '#/components/schemas/Feature'
+      required:
+      - type
+      - features
+    Feature:
+      type: object
+      properties:
+        type:
+          const: Feature
+        geometry:
+          type: object
+        properties:
+          type: object
+          properties:
+            id_publico:
+              type: string
+            titulo_publico:
+              type: string
+            freguesia:
+              type: string
+            municipio:
+              type: string
+            tipo_entrada:
+              type: string
+            estado_visual:
+              type: string
+            licenca_item:
+              type: string
+            fonte_publica:
+              type: string
+      required:
+      - type
+      - geometry
+      - properties
