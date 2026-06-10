@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+title: "Atlas Vivo MILK — documentação técnica pública"
+message: "Use this citation metadata for public technical documentation."
+type: software
+repository-code: "https://github.com/eduardomauer/metodologias-culturais"
+version: "0.1.0"
+date-released: "2026-06-10"
