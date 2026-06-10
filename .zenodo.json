@@ -1,0 +1,8 @@
+{
+  "title": "Atlas Vivo MILK — documentação técnica pública",
+  "version": "0.1.0",
+  "upload_type": "software",
+  "description": "Documentação pública de interoperabilidade, APIs, OpenAPI, RGPD e acessibilidade para a camada publicável do Atlas Vivo MILK.",
+  "keywords": ["Atlas Vivo MILK", "OpenAPI", "GeoJSON", "IIIF", "RGPD", "WCAG"],
+  "license": "EUPL-1.2"
+}
