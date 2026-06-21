@@ -1,39 +1,26 @@
-# ATLAS MILK — Documentos, licenças, códigos e certificados das APIs
+# Metodologias Culturais MILK
 
-Data de consolidação: 2026-06-10  
-Entidade: Associação MILK — Movimento de Intervenções e Linguagens Kulturais e Arte  
-Domínio alvo referido: `atlas.associacaomilk.pt`
+Repository for public, validated documentation related to cultural methodologies, interoperability, licensing, accessibility and public-interest digital infrastructure developed within the ecosystem of **Associação MILK — Movimento de Intervenções e Linguagens Kulturais e Arte**.
 
-## Estado de verdade
+## Scope
 
-Este pacote consolida o que foi possível verificar nesta sessão por três vias:
+This repository is intended only for materials that have passed institutional review and can be made public without exposing personal data, confidential methods, restricted assets, unvalidated rights or internal operational layers.
 
-1. conectores ligados ao teu Google Drive;
-2. repositórios GitHub acessíveis em leitura;
-3. fontes públicas oficiais pesquisadas na web.
+It may include public documentation, interoperability notes, licensing matrices, accessibility guidance, public API documentation, citation metadata and non-sensitive technical references.
 
-Não afirmo que todos os teus ficheiros do Drive foram varridos. Foram varridos os resultados relevantes por termos técnicos: API, OpenAPI, licença, certificado, Copernicus, OpenAIRE, DataCite, IIIF e afins.
+It must not include credentials, secrets, tokens, private configuration files, personal data, sensitive community records, private assets, high-resolution images, unlicensed photographs, internal Atlas/OCSR inference methods, unpublished curatorial engines, restricted intellectual property, confidential strategy or documents containing unvalidated rights.
 
-## Limites executivos
+## Rights and licensing
 
-- Foi criado um Google Doc com o título `ATLAS_MILK_API_DOCUMENTOS_LICENCAS_CODIGOS_CERTIFICADOS_MANIFESTO`.
-- O conector GitHub mostrou repositórios acessíveis em leitura, mas sem permissão de escrita nos resultados observados.
-- Não publiquei nada no Zenodo, OpenAIRE, DataCite ou GitHub.
-- Não descarreguei integralmente normas pagas ou documentos sujeitos a licença restritiva.
-- Este pacote é um manifesto técnico-portátil para inserção futura em repositório público/privado.
+Licensing is defined by layer. Software may use EUPL-1.2 when released as public, sanitised code. Public documentation may use a Creative Commons licence when explicitly validated. Public datasets may use an appropriate open data licence only when provenance and rights allow it.
 
-## Ficheiros incluídos
+MILK visual identity, characters, gliphs, assets, images, devices, curatorial systems and protected aesthetic language remain under reserved rights unless otherwise stated.
 
-- `api_registry.csv`
-- `api_registry.json`
-- `OFFICIAL_SOURCES.md`
-- `LICENSE_AND_RIGHTS_POLICY_MILK.md`
-- `openapi_atlas_milk_public.yaml`
-- `CERTIFICATES_VALIDATION_CHECKLIST.md`
-- `REPOSITORY_STRUCTURE.md`
-- `RGPD_ACCESSIBILITY_INTEROPERABILITY.md`
-- `INTEGRATION_STATUS.md`
+## Governance
 
-## Decisão de arquitetura
+Every public file must have a clear title, source or provenance, author or responsible entity, licence, version, date, access level and validation status.
 
-A camada pública pode usar documentação aberta e standards. A camada interna MILK/OCSR, motores curatoriais, metodologias de leitura territorial, regras de inferência, núcleos autorais, imagens sem licença final e lógica estratégica não devem ser despejados em repositório público.
+## Association
+
+Associação MILK — Movimento de Intervenções e Linguagens Kulturais e Arte  
+Lisbon, Portugal
