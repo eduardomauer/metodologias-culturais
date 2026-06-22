@@ -1,0 +1,6 @@
+version = 1
+
+[[annotations]]
+path = ["*.md", "*.json", "*.yaml", "*.yml", "*.cff", "*.toml"]
+SPDX-FileCopyrightText = "2026 Associacao MILK"
+SPDX-License-Identifier = "EUPL-1.2"
