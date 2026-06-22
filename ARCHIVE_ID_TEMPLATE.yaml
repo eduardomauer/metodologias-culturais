@@ -1,0 +1,9 @@
+archive_registry:
+  status: pending
+  releases:
+    - release_tag: pending
+      origin: pending
+      visit: pending
+      archive_identifier: pending
+      path: pending
+      lines: pending
