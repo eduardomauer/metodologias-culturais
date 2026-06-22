@@ -1,0 +1,3 @@
+# Nota
+
+Revisao humana.
