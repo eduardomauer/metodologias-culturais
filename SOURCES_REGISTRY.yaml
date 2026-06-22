@@ -1,0 +1,46 @@
+sources:
+  - id: forgejo_codeberg
+    class: canonical_forge
+    status: planned
+    public_repo: true
+    notes: canonical migration target
+  - id: zenodo
+    class: doi_deposit
+    status: planned
+    public_repo: true
+    notes: DOI and DataCite metadata after final release
+  - id: software_heritage
+    class: software_archive
+    status: planned
+    public_repo: true
+    notes: SWHID after archive verification
+  - id: orcid
+    class: identity
+    status: prepared
+    public_repo: true
+    notes: authorship identifiers only
+  - id: dgt_snig
+    class: geospatial
+    status: planned
+    public_repo: true
+    notes: territorial metadata and official geography
+  - id: ipma
+    class: api
+    status: optional
+    public_repo: true
+    notes: structured public data when needed
+  - id: eurlex_diario_republica
+    class: legal_documentation
+    status: planned
+    public_repo: true
+    notes: legal monitoring and references
+  - id: matrizpci
+    class: crosswalk
+    status: crosswalk_only
+    public_repo: true
+    notes: no API claim until technically verified
+  - id: sensitive_materials
+    class: restricted
+    status: not_public
+    public_repo: false
+    notes: consent and rights review required
