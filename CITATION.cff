@@ -1,7 +1,25 @@
 cff-version: 1.2.0
-title: "Atlas Vivo MILK — documentação técnica pública"
-message: "Use this citation metadata for public technical documentation."
+message: "Use this citation metadata for the public technical documentation layer."
+title: "Atlas Vivo MILK — public technical documentation"
 type: software
-repository-code: "https://github.com/eduardomauer/metodologias-culturais"
 version: "0.1.0"
 date-released: "2026-06-10"
+repository-code: "https://github.com/eduardomauer/metodologias-culturais"
+license: "EUPL-1.2"
+authors:
+  - family-names: "Cabral e Araujo"
+    given-names: "Eduardo Mauricio Vieira"
+    alias: "Eduardo Mauer"
+    orcid: "https://orcid.org/0009-0007-6892-6570"
+  - name: "Associação MILK — Movimento de Intervenções e Linguagens Kulturais e Arte"
+    orcid: "https://orcid.org/0009-0004-9132-2925"
+abstract: "Public technical documentation layer for the Atlas Vivo MILK and MILK cultural methodology interoperability. This citation file does not open restricted assets, private data, internal OCSR methods or unvalidated visual rights."
+keywords:
+  - Atlas Vivo MILK
+  - Associação MILK
+  - cultural infrastructure
+  - interoperability
+  - Portugal
+  - RGPD
+  - Software Heritage
+  - Zenodo
