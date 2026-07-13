@@ -1,0 +1,35 @@
+# Credenciais e configuração privada
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+service-account*.json
+client_secret*.json
+secrets.*
+
+# Ficheiros locais e temporários
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Dependências e builds
+node_modules/
+dist/
+build/
+coverage/
+.venv/
+venv/
+__pycache__/
+
+# Dados e exportações potencialmente sensíveis
+private/
+restricted/
+confidential/
+exports/
+backups/
