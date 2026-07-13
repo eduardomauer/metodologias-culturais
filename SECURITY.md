@@ -1,13 +1,34 @@
-# Security Policy
+# Política de segurança
 
-This public repository must not contain credentials, tokens, OAuth secrets, private configuration files, personal data, sensitive community records, unpublished contracts, private assets, restricted Atlas/OCSR methods or internal operational material.
+Este repositório público não deve conter credenciais, tokens, segredos OAuth, chaves privadas, configurações privadas, dados pessoais, registos sensíveis, contratos não publicados, activos restritos, métodos internos ou material operacional confidencial.
 
-If a sensitive item is identified, public development must stop until the item is assessed, any affected credential is rotated outside the repository, the exposed material is removed from the current branch, and repository history is reviewed before further release.
+## Regra de publicação
 
-## Public release rule
+Um ficheiro só pode permanecer público quando tiver, conforme aplicável:
 
-A file is public-ready only when it has a clear title, provenance, author or responsible entity, licence, version, access level, validation status and no restricted content.
+- título claro;
+- autoria ou entidade responsável;
+- proveniência;
+- versão;
+- data;
+- estado de validação;
+- licença ou reserva de direitos;
+- nível de acesso;
+- ausência de conteúdo restrito.
 
-## Reporting
+## Comunicação responsável
 
-Security concerns should be handled privately by the repository owner or by Associação MILK — Movimento de Intervenções e Linguagens Kulturais e Arte.
+Não publique vulnerabilidades, segredos ou dados sensíveis em issues, pull requests, commits ou discussões públicas. A comunicação deve ser feita de forma privada ao responsável do repositório ou à Associação MILK.
+
+## Resposta a exposição
+
+Quando houver exposição confirmada:
+
+1. suspender a publicação afectada;
+2. revogar e substituir a credencial, quando aplicável;
+3. remover o conteúdo do ramo público actual;
+4. rever histórico, branches, tags, releases e artefactos;
+5. documentar a correcção sem republicar o conteúdo sensível;
+6. retomar a publicação apenas após validação.
+
+A remoção de um ficheiro do ramo actual não elimina automaticamente o conteúdo do histórico.
