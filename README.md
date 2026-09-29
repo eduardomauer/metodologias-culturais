@@ -1,64 +1,93 @@
-# Metodologias Culturais MILK
+<div align="center">
 
-Documentação pública revista sobre metodologias culturais, interoperabilidade, acessibilidade, proveniência, licenciamento e infraestrutura digital de interesse público no ecossistema da **Associação MILK — Movimento de Intervenções e Linguagens Kulturais e Arte**.
+# Eduardo Mauer × Metodologias Culturais MILK
 
-## Autoria e enquadramento
+### Arte, território, tecnologia e infraestruturas culturais de interesse público
 
-**Eduardo Maurício Vieira Cabral e Araújo**, nome artístico **Eduardo Mauer**, é fundador da Associação MILK e arquitecto de sistemas culturais do ecossistema Atlas Vivo MILK.
+**Eduardo Maurício Vieira Cabral e Araújo — Eduardo Mauer**  
+Fundador da **Associação MILK — Movimento de Intervenções e Linguagens Kulturais e Arte**  
+ORCID: `0009-0007-6892-6570` · Lisboa, Portugal
 
-ORCID: `0009-0007-6892-6570`
+</div>
 
-A autoria individual, a responsabilidade institucional, a manutenção técnica, a publicação e a titularidade de direitos são tratadas como funções distintas.
+---
 
-## Âmbito
+## O que este trabalho reúne
 
-Este repositório contém apenas materiais que podem permanecer públicos após revisão institucional.
+Eduardo Mauer trabalha na intersecção de campos que normalmente aparecem separados: **criação artística, curadoria, leitura territorial, património cultural, sistemas digitais, acessibilidade, interoperabilidade, proveniência e governação**.
 
-Pode incluir:
-- documentação técnica pública;
-- notas de interoperabilidade;
-- matrizes de licenciamento;
-- orientações de acessibilidade;
-- metadados de citação;
-- documentação de APIs públicas;
-- referências técnicas não sensíveis.
+O eixo central é transformar conhecimento cultural e territorial em **sistemas públicos legíveis, participativos e tecnicamente sustentáveis**, sem perder autoria, contexto, direitos ou complexidade.
 
-Não deve incluir:
-- credenciais, tokens ou configuração privada;
-- dados pessoais ou registos comunitários sensíveis;
-- activos privados ou ficheiros de alta resolução sem autorização;
-- fotografias ou obras sem direitos validados;
-- métodos internos de inferência do Atlas/OCSR;
-- motores curatoriais não publicados;
-- estratégia confidencial;
-- conteúdos sem proveniência ou direitos confirmados.
+| Eixo | Trabalho desenvolvido |
+|---|---|
+| **Território** | cartografia cultural, memória situada, leitura de freguesias e municípios, património material e imaterial |
+| **Curadoria** | dispositivos participativos, metodologias de mediação, experiências culturais e arquitecturas de encontro |
+| **Tecnologia pública** | interfaces web, dados culturais, interoperabilidade, metadados, acessibilidade e documentação |
+| **Sistemas culturais** | desenho de relações entre conteúdos, pessoas, território, instituições e experiência |
+| **Governação** | proveniência, separação de direitos, publicação por camadas, rastreabilidade e supervisão humana |
+| **Investigação** | linguagem, cultura, memória, participação, complexidade territorial e metodologias experimentais |
 
-## Direitos e licenciamento
+---
 
-O licenciamento é definido **por ficheiro e por camada**.
+## Projectos e linhas de trabalho
 
-Software público saneado pode usar EUPL-1.2 quando isso estiver expressamente indicado. Documentação pública pode usar uma licença Creative Commons quando validada. Dados públicos só recebem licença aberta quando proveniência, direitos e finalidade o permitem.
+### Atlas Vivo MILK
+Infraestrutura cultural territorial para Portugal, concebida como uma experiência pública que articula **memória, festas, lendas, crónicas, fotografia, dispositivos curatoriais, participação e cartografia**.
 
-A identidade visual MILK, personagens, desenhos, esculturas, dispositivos, imagens, sistemas curatoriais e linguagem estética protegida permanecem sob direitos reservados salvo declaração expressa em contrário.
+### Folclore Vivo MILK
+Linha metodológica dedicada à leitura contemporânea do património cultural imaterial, procurando preservar contexto e autoria sem reduzir cultura a catálogo.
 
-## Governação
+### OCSR — Observatório de Coesão Social e Redes
+Linha de investigação orientada para **coesão social, redes, evidência territorial, complexidade cultural e interesse público**.
 
-Cada ficheiro público deve conseguir identificar, conforme aplicável:
-- título;
-- autoria ou entidade responsável;
-- proveniência;
-- versão/data;
-- licença ou reserva de direitos;
-- nível de acesso;
-- estado de validação.
+### Interfaces e sistemas públicos
+Trabalho sobre a passagem entre investigação cultural e sistemas digitais: **documentação, dados, acessibilidade, interoperabilidade, licenciamento, proveniência e desenho de experiência**.
 
-## Relação com o perfil
+---
 
-Este repositório integra a presença autoral pública de **Eduardo Mauer** no GitHub e documenta apenas a camada cultural/técnica que pode ser tornada pública.
+## Capacidades que este repositório documenta
 
-Perfil: `github.com/eduardomauer`
+- arquitectura de sistemas culturais;
+- desenho de infraestruturas digitais para cultura;
+- leitura territorial e organização de corpus culturais;
+- curadoria e mediação;
+- desenho de interfaces públicas;
+- acessibilidade digital;
+- interoperabilidade e metadados;
+- proveniência e cadeia de autoria;
+- desenho de políticas de publicação e direitos por camada;
+- integração entre investigação, linguagem, território e tecnologia.
 
-## Entidade promotora
+> A tecnologia aparece aqui como meio. O objecto continua a ser humano, cultural e territorial.
 
-**Associação MILK — Movimento de Intervenções e Linguagens Kulturais e Arte**  
-Lisboa, Portugal
+---
+
+## Publicação responsável
+
+Este repositório contém apenas materiais que podem permanecer públicos após revisão.
+
+Não deve conter:
+- credenciais ou configuração privada;
+- dados pessoais ou registos sensíveis;
+- imagens sem direitos validados;
+- activos privados;
+- motores curatoriais confidenciais;
+- estratégia interna;
+- conteúdos sem proveniência.
+
+O licenciamento é definido **por ficheiro e por camada**. A presença num repositório público não concede automaticamente direitos sobre obras, imagens, dispositivos, personagens, marcas ou sistemas curatoriais.
+
+---
+
+## Explorar
+
+- **Perfil de Eduardo Mauer:** https://github.com/eduardomauer
+- **Metodologias Curatoriais MILK:** https://github.com/eduardomauer/metodologias-curatoriais-
+- **Associação MILK:** https://associacaomilk.pt
+- **ORCID:** https://orcid.org/0009-0007-6892-6570
+
+Para uma visão mais ampla das áreas de trabalho e capacidades, consulte [PORTFOLIO_EDUARDO_MAUER.md](PORTFOLIO_EDUARDO_MAUER.md).
+
+---
+
+<sub>Autoria individual, responsabilidade institucional, manutenção técnica, publicação e titularidade de direitos são funções distintas e permanecem identificadas separadamente.</sub>
