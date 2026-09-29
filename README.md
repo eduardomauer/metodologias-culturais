@@ -1,26 +1,64 @@
 # Metodologias Culturais MILK
 
-Repository for public, validated documentation related to cultural methodologies, interoperability, licensing, accessibility and public-interest digital infrastructure developed within the ecosystem of **Associação MILK — Movimento de Intervenções e Linguagens Kulturais e Arte**.
+Documentação pública revista sobre metodologias culturais, interoperabilidade, acessibilidade, proveniência, licenciamento e infraestrutura digital de interesse público no ecossistema da **Associação MILK — Movimento de Intervenções e Linguagens Kulturais e Arte**.
 
-## Scope
+## Autoria e enquadramento
 
-This repository is intended only for materials that have passed institutional review and can be made public without exposing personal data, confidential methods, restricted assets, unvalidated rights or internal operational layers.
+**Eduardo Maurício Vieira Cabral e Araújo**, nome artístico **Eduardo Mauer**, é fundador da Associação MILK e arquitecto de sistemas culturais do ecossistema Atlas Vivo MILK.
 
-It may include public documentation, interoperability notes, licensing matrices, accessibility guidance, public API documentation, citation metadata and non-sensitive technical references.
+ORCID: `0009-0007-6892-6570`
 
-It must not include credentials, secrets, tokens, private configuration files, personal data, sensitive community records, private assets, high-resolution images, unlicensed photographs, internal Atlas/OCSR inference methods, unpublished curatorial engines, restricted intellectual property, confidential strategy or documents containing unvalidated rights.
+A autoria individual, a responsabilidade institucional, a manutenção técnica, a publicação e a titularidade de direitos são tratadas como funções distintas.
 
-## Rights and licensing
+## Âmbito
 
-Licensing is defined by layer. Software may use EUPL-1.2 when released as public, sanitised code. Public documentation may use a Creative Commons licence when explicitly validated. Public datasets may use an appropriate open data licence only when provenance and rights allow it.
+Este repositório contém apenas materiais que podem permanecer públicos após revisão institucional.
 
-MILK visual identity, characters, gliphs, assets, images, devices, curatorial systems and protected aesthetic language remain under reserved rights unless otherwise stated.
+Pode incluir:
+- documentação técnica pública;
+- notas de interoperabilidade;
+- matrizes de licenciamento;
+- orientações de acessibilidade;
+- metadados de citação;
+- documentação de APIs públicas;
+- referências técnicas não sensíveis.
 
-## Governance
+Não deve incluir:
+- credenciais, tokens ou configuração privada;
+- dados pessoais ou registos comunitários sensíveis;
+- activos privados ou ficheiros de alta resolução sem autorização;
+- fotografias ou obras sem direitos validados;
+- métodos internos de inferência do Atlas/OCSR;
+- motores curatoriais não publicados;
+- estratégia confidencial;
+- conteúdos sem proveniência ou direitos confirmados.
 
-Every public file must have a clear title, source or provenance, author or responsible entity, licence, version, date, access level and validation status.
+## Direitos e licenciamento
 
-## Association
+O licenciamento é definido **por ficheiro e por camada**.
 
-Associação MILK — Movimento de Intervenções e Linguagens Kulturais e Arte  
-Lisbon, Portugal
+Software público saneado pode usar EUPL-1.2 quando isso estiver expressamente indicado. Documentação pública pode usar uma licença Creative Commons quando validada. Dados públicos só recebem licença aberta quando proveniência, direitos e finalidade o permitem.
+
+A identidade visual MILK, personagens, desenhos, esculturas, dispositivos, imagens, sistemas curatoriais e linguagem estética protegida permanecem sob direitos reservados salvo declaração expressa em contrário.
+
+## Governação
+
+Cada ficheiro público deve conseguir identificar, conforme aplicável:
+- título;
+- autoria ou entidade responsável;
+- proveniência;
+- versão/data;
+- licença ou reserva de direitos;
+- nível de acesso;
+- estado de validação.
+
+## Relação com o perfil
+
+Este repositório integra a presença autoral pública de **Eduardo Mauer** no GitHub e documenta apenas a camada cultural/técnica que pode ser tornada pública.
+
+Perfil: `github.com/eduardomauer`
+
+## Entidade promotora
+
+**Associação MILK — Movimento de Intervenções e Linguagens Kulturais e Arte**  
+Lisboa, Portugal
